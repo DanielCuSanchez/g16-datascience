@@ -12,7 +12,7 @@ class Superhero:
     self.powerstats = powerstats
 
   def fight(self):
-    return print("Superman is fighting! 👊")
+    return "Superman is fighting! 👊"
 
   def get_name(self):
     return self.name
@@ -25,4 +25,5 @@ print(superman.name)
 print(superman.universe)
 print(superman.powerstats)
 
+print(superman.fight())
 print(superman.get_name())
