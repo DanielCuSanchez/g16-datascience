@@ -41,5 +41,8 @@ for key, value in countries.items():
 for key in countries:
   print(countries[key])
 
-#for x in range(len(countries)):
-  #print(countries[x])
+print("-----------------------------")
+
+for x in range(len(countries)):
+  print(countries[x + 1])
+  print(countries.get(x + 1))
